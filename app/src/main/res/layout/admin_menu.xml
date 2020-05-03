@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg3">
+
+    <TextView
+        android:id="@+id/R_T"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CEA55981"
+        android:text="Menu"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#CDDC8A8A"
+        android:text="add reader"
+        android:textAlignment="center"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CDDC8A8A"
+        android:text="Add Book"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CDDC8A8A"
+        android:text="Book List"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CDDC8A8A"
+        android:text="Search a book"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:layout_marginTop="15dp"/>
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CDDC8A8A"
+        android:text="Issue a Book"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#CDDC8A8A"
+        android:text="Return a Book"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        >
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#CDDC8A8A"
+        android:text="Log Out"
+        android:textColor="#050505"
+        android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

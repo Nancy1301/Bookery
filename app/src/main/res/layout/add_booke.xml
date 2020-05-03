@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg3"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textAlignment="center"
+    android:text="Add Book"
+    android:textSize="40sp"
+    android:background="#CEA55981"
+    android:textColor="#050505"/>
+    <AutoCompleteTextView
+        android:id="@+id/tID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="Enter Book ID"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/tISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:hint="Enter ISBN"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/UID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Add"
+        android:textColor="#020202"
+        android:background="#CDDC8A8A"
+        />
+    <TextView
+        android:id="@+id/tvbid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F12525"
+        android:textSize="30sp"
+        android:text="BOOK ID IS:-"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#020202"
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backg3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book Info"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#050505"
+        android:background="#CEA55981"
+        />
+
+    <EditText
+        android:id="@+id/B_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#CCE6A978"
+        android:hint="enter book name"
+        android:textColor="#020202"
+        android:textColorHint="#020202"
+        android:inputType="textCapSentences"
+        />
+
+    <EditText
+    android:id="@+id/B_author"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="40dp"
+    android:background="#CCE6A978"
+    android:hint="enter author name"
+    android:textColor="#020202"
+    android:textColorHint="#020202"
+        android:inputType="textCapSentences"/>
+    <EditText
+        android:id="@+id/B_ISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#CCE6A978"
+        android:hint="ENTER ISBN"
+        android:textColor="#020202"
+        android:textColorHint="#020202"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:background="#CDDC8A8A"
+        android:textSize="30sp"
+        android:textColor="#020202"
+        />
+
+    <TextView
+        android:id="@+id/tvadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F12525"
+        android:textSize="30sp"
+        android:text="BOOK ID IS:-"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="#020202"
+        />
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Done"
+        android:background="#CDDC8A8A"
+        android:textSize="30sp"
+        android:layout_marginTop="35dp"
+        android:textColor="#020202"
+        />
+
+
+
+
+</LinearLayout>

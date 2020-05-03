@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bookery">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Admin.AdminLogin"></activity>
+        <activity android:name=".Admin.AdminMenu"></activity>
+        <activity android:name=".Admin.AddReader"></activity>
+        <activity android:name=".ReaderMenu"></activity>
+        <activity android:name=".ReaderLogin"></activity>
+        <activity android:name=".Admin.AddBookI" ></activity>
+        <activity android:name=".Admin.AddBookNS"></activity>
+        <activity android:name=".Admin.AddBookN"></activity>
+        <activity android:name=".Admin.AddBook"></activity>
+        <activity android:name=".Admin.AddBookE"></activity>
+        <activity android:name=".Admin_BookList"></activity>
+        <activity android:name=".search_menu"></activity>
+        <activity android:name=".Selected_booklist"></activity>
+        <activity android:name=".Admin.Isuue_Book"></activity>
+        <activity android:name=".Admin.Isuue_Date_Book"></activity>
+        <activity android:name=".Return_book"></activity>
+        <activity android:name=".Book_List"></activity>
+        <activity android:name=".MainActivity1"></activity>
+        <activity android:name=".Selected_Book_List"></activity>
+        <activity android:name=".Issue_List"></activity>
+    </application>
+
+</manifest>

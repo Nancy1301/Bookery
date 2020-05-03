@@ -1,0 +1,11 @@
+<resources>
+
+
+    <string name="app_name">Bookery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="isbn_prompt">Choose ISBN</string>
+    <string name="branch_prompt">Select Branch</string>
+    <string name="position_prompt">Select Position</string>
+    <string name="publisher_prompt">Select Publisher</string>
+</resources>

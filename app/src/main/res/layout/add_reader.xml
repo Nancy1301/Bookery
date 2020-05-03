@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg3">
+
+    <TextView
+        android:id="@+id/R_T"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Add Reader"
+        android:textAlignment="center"
+
+        android:textColor="#0C0C0C"
+        android:textSize="40sp" />
+    <EditText
+        android:id="@+id/R_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="enter reader id(registration no./ faculty id)"
+
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/F_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="enter reader F_Name"
+        />
+    <EditText
+        android:id="@+id/M_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="enter reader M_Name"
+        />
+    <EditText
+        android:id="@+id/L_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="enter reader L_Name"
+        />
+
+    <Button
+        android:id="@+id/AddReader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#BC6A6A"
+
+        android:text="Add user"
+        android:textColor="#050000" />
+
+
+
+
+</LinearLayout>

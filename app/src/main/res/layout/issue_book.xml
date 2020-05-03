@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/issuebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/backg3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Issue Book"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#050505"
+            android:background="#CEA55981"
+
+
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/I_ISBN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#CCE6A978"
+            android:completionHint="ISBN"
+            android:completionThreshold="1"
+            android:hint="Enter ISBN number"
+            android:textColor="#050505"
+            android:textColorHint="#131212"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/isearch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Issue"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#CDDC8A8A"
+            android:textSize="30sp"/>
+        <AutoCompleteTextView
+            android:id="@+id/I_Book_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#CCE6A978"
+            android:completionHint="Book Name"
+            android:completionThreshold="1"
+            android:hint="Enter Book ID"
+            android:textColor="#050505"
+            android:textColorHint="#131212"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/isearch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Issue"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#CDDC8A8A"
+            android:textSize="30sp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ABE2F18B"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:id="@+id/tvIdbook"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvP_Name"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:text="ID"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvNamebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvA_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvP_Name"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:text="Author Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvP_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNamebook"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="10dp"
+        android:text="P_Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

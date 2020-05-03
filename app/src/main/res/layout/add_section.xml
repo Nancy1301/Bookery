@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/addsec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/backg3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Section"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="#050505"
+            android:background="#CEA55981"
+
+
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/S_N"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#CCE6A978"
+            android:completionHint="Section name"
+            android:completionThreshold="1"
+            android:hint="Enter Section Name"
+            android:textColor="#050505"
+            android:textColorHint="#131212"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/S_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#CDDC8A8A"
+            android:textSize="40sp"/>
+    </LinearLayout>
+
+</LinearLayout>

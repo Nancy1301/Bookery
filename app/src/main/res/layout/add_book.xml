@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg3"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#C8B34848"
+        android:text="Existing/New"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/existingbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#CDDC8A8A"
+        android:text="existing book"
+        android:textColor="#020202"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/Newbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC8A8A"
+        android:text="new book"
+        android:textColor="#040404"
+        android:textSize="25sp" />
+
+</LinearLayout>
